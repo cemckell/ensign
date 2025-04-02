@@ -1,3 +1,27 @@
-python
+/* 
+ * Project Description/name: hello World
+ * Creator Cameron and David
+ * Date Created: April 2, 2025
+ */
 
-print("Hello, World!")
+
+package hello_world;
+import java.util.Scanner; //for users to reply to questions
+
+public class hello_world {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("Hello World!");
+		
+		Scanner in = new Scanner(System.in);//for input of user
+		
+		//Ask question about user's name
+		System.out.println("What is your name?");
+		
+		String name = in.nextLine();
+		System.out.println("Hello " + name + "!");
+		System.out.println();
+	}// end of main code
+
+}// end of public class hello_world
